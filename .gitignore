@@ -3,3 +3,19 @@ dist
 msf.egg-info
 test/log/log*
 **/__pycache__
+
+# __pycache__
+__pycache__/
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# macOS
+**/.DS_Store
+
+# git rm -r --cached . && git add . && git commit -am "remove ignored files"
